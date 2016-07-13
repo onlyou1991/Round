@@ -15,6 +15,14 @@
 		0CD7E79E1D36158300CAF676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD7E79C1D36158300CAF676 /* LaunchScreen.storyboard */; };
 		0CD7E7A91D36158400CAF676 /* RoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7E7A81D36158400CAF676 /* RoundTests.m */; };
 		0CD7E7B41D36158400CAF676 /* RoundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7E7B31D36158400CAF676 /* RoundUITests.m */; };
+		0CD7E7CA1D3615E700CAF676 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7E7C31D3615E700CAF676 /* News.m */; };
+		0CD7E7CB1D3615E700CAF676 /* CRNewsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7E7C61D3615E700CAF676 /* CRNewsView.m */; };
+		0CD7E7CC1D3615E700CAF676 /* GCRNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD7E7C81D3615E700CAF676 /* GCRNewsCell.m */; };
+		0CD7E7CD1D3615E700CAF676 /* GCRNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD7E7C91D3615E700CAF676 /* GCRNewsCell.xib */; };
+		0CD7E7D21D36191200CAF676 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD7E7CE1D36191200CAF676 /* 1.jpg */; };
+		0CD7E7D31D36191200CAF676 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD7E7CF1D36191200CAF676 /* 2.jpg */; };
+		0CD7E7D41D36191200CAF676 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD7E7D01D36191200CAF676 /* 3.jpg */; };
+		0CD7E7D51D36191200CAF676 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD7E7D11D36191200CAF676 /* 4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,17 @@
 		0CD7E7AF1D36158400CAF676 /* RoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD7E7B31D36158400CAF676 /* RoundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundUITests.m; sourceTree = "<group>"; };
 		0CD7E7B51D36158400CAF676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CD7E7C21D3615E700CAF676 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		0CD7E7C31D3615E700CAF676 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		0CD7E7C51D3615E700CAF676 /* CRNewsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRNewsView.h; sourceTree = "<group>"; };
+		0CD7E7C61D3615E700CAF676 /* CRNewsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRNewsView.m; sourceTree = "<group>"; };
+		0CD7E7C71D3615E700CAF676 /* GCRNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCRNewsCell.h; sourceTree = "<group>"; };
+		0CD7E7C81D3615E700CAF676 /* GCRNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCRNewsCell.m; sourceTree = "<group>"; };
+		0CD7E7C91D3615E700CAF676 /* GCRNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCRNewsCell.xib; sourceTree = "<group>"; };
+		0CD7E7CE1D36191200CAF676 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		0CD7E7CF1D36191200CAF676 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		0CD7E7D01D36191200CAF676 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		0CD7E7D11D36191200CAF676 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +122,16 @@
 			children = (
 				0CD7E7911D36158300CAF676 /* AppDelegate.h */,
 				0CD7E7921D36158300CAF676 /* AppDelegate.m */,
+				0CD7E7C11D3615E700CAF676 /* Model */,
+				0CD7E7C41D3615E700CAF676 /* view */,
 				0CD7E7941D36158300CAF676 /* ViewController.h */,
 				0CD7E7951D36158300CAF676 /* ViewController.m */,
 				0CD7E7971D36158300CAF676 /* Main.storyboard */,
 				0CD7E79A1D36158300CAF676 /* Assets.xcassets */,
+				0CD7E7CE1D36191200CAF676 /* 1.jpg */,
+				0CD7E7CF1D36191200CAF676 /* 2.jpg */,
+				0CD7E7D01D36191200CAF676 /* 3.jpg */,
+				0CD7E7D11D36191200CAF676 /* 4.jpg */,
 				0CD7E79C1D36158300CAF676 /* LaunchScreen.storyboard */,
 				0CD7E79F1D36158300CAF676 /* Info.plist */,
 				0CD7E78E1D36158300CAF676 /* Supporting Files */,
@@ -138,6 +163,27 @@
 				0CD7E7B51D36158400CAF676 /* Info.plist */,
 			);
 			path = RoundUITests;
+			sourceTree = "<group>";
+		};
+		0CD7E7C11D3615E700CAF676 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CD7E7C21D3615E700CAF676 /* News.h */,
+				0CD7E7C31D3615E700CAF676 /* News.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CD7E7C41D3615E700CAF676 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0CD7E7C51D3615E700CAF676 /* CRNewsView.h */,
+				0CD7E7C61D3615E700CAF676 /* CRNewsView.m */,
+				0CD7E7C71D3615E700CAF676 /* GCRNewsCell.h */,
+				0CD7E7C81D3615E700CAF676 /* GCRNewsCell.m */,
+				0CD7E7C91D3615E700CAF676 /* GCRNewsCell.xib */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +292,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD7E7D51D36191200CAF676 /* 4.jpg in Resources */,
+				0CD7E7D31D36191200CAF676 /* 2.jpg in Resources */,
 				0CD7E79E1D36158300CAF676 /* LaunchScreen.storyboard in Resources */,
+				0CD7E7CD1D3615E700CAF676 /* GCRNewsCell.xib in Resources */,
 				0CD7E79B1D36158300CAF676 /* Assets.xcassets in Resources */,
 				0CD7E7991D36158300CAF676 /* Main.storyboard in Resources */,
+				0CD7E7D41D36191200CAF676 /* 3.jpg in Resources */,
+				0CD7E7D21D36191200CAF676 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +326,10 @@
 			files = (
 				0CD7E7961D36158300CAF676 /* ViewController.m in Sources */,
 				0CD7E7931D36158300CAF676 /* AppDelegate.m in Sources */,
+				0CD7E7CA1D3615E700CAF676 /* News.m in Sources */,
+				0CD7E7CB1D3615E700CAF676 /* CRNewsView.m in Sources */,
 				0CD7E7901D36158300CAF676 /* main.m in Sources */,
+				0CD7E7CC1D3615E700CAF676 /* GCRNewsCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
